@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Real-Time Emotion Detection</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        #videoFeed {
+            margin-top: 20px;
+            display: none;
+            border: 2px solid #333;
+        }
+        #startBtn {
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Real-Time Emotion Detection</h1>
+    <button id="startBtn" onclick="startDetection()">Start Detection</button>
+    <br>
+    <img id="videoFeed" src="" width="640" height="480" alt="Video Feed">
+    
+    <script>
+        function startDetection() {
+            const videoFeed = document.getElementById('videoFeed');
+            videoFeed.style.display = 'block';
+            videoFeed.src = "/video_feed";
+        }
+    </script>
+</body>
+</html>
