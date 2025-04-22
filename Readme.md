@@ -25,46 +25,63 @@ baby-emotion-recognition/
 ├── requirements.txt   # Dependencies needed to run the project
 ├── setup.bat          # Script for setting up the environment
 ├── training_model.py  # Python script for training the emotion detection model
+```
 
+## 🚀 Installation & Setup
 
-🚀 Installation & Setup
-1️⃣ Clone the Repository
+### 1️⃣ Clone the Repository
+```plaintext
 git clone <repository-url>
 cd baby-emotion-recognition
+``` 
 
-2️⃣ Create a Virtual Environment
+### 2️⃣ Create a Virtual Environment
 Windows
+```plaintext
 python -m venv .venv
 .venv\Scripts\activate
-
+```
 Mac/Linux
+```plaintext
 python3 -m venv .venv
 source .venv/bin/activate
+```
 
-3️⃣ Install Dependencies
+### 3️⃣ Install Dependencies
+```plaintext
 pip install -r requirements.txt
+```
 
-🎥 Run the Application
+### 🎥 Run the Application
 Start the Flask web app:
+```plaintext
 python detection_app.py
+```
 
 Once the server starts, open the browser and go to:
+```plaintext
 http://127.0.0.1:5000
+```
 
 Click "Start Detection" to analyze baby emotions in real-time.
 
-🎭 Making Predictions
+### 🎭 Making Predictions
 For Single Image Emotion Detection
 Run the predict.py script with an image path:
+```plaintext
 python predict.py
+```
 
 For Real-Time Webcam Detection
 Run detection_app.py:
+```plaintext
 python detection_app.py
+```
 
 This will activate the webcam and display real-time emotion predictions.
 
-💡 Model Details
+## 💡 Model Details
+```plaintext
 - Architecture: CNN (Convolutional Neural Network)
 - Input: Grayscale baby face images (48×48 pixels)
 - Output: Emotion classification (7 categories)
@@ -75,27 +92,29 @@ This will activate the webcam and display real-time emotion predictions.
 - 😐 Neutral
 - 😢 Sad
 - 😲 Surprise
+```
 
-📊 Training the Model
+## 📊 Training the Model
 - Open training_model.py to modify training parameters if needed.
-- Run the script:python training_model.py
-
+- Run the script:
+```plaintext
+python training_model.py
+```
 - The trained model will be saved as BabyEmotion.h5.
 - Use LossGraph.py to visualize training performance.
 
-🔧 Dependencies
+## 🔧 Dependencies
 Ensure the following libraries are installed:
+```plaintext
 - Flask – Web application framework
 - TensorFlow/Keras – Deep learning framework
 - OpenCV – Image processing
 - Matplotlib – Plotting loss graphs
 - Other dependencies listed in requirements.txt
+```
 
-🤝 Contributing
+## 🤝 Contributing
 We welcome contributions! To contribute:
 - Fork the repository.
 - Make improvements or fix bugs.
 - Submit a pull request with a clear description.
-
-📜 License
-This project is open-source under the MIT License. Feel free to modify and use it for research, educational, or commercial applications.
