@@ -7,7 +7,9 @@ This project aims to provide a reliable and efficient emotion recognition system
 📂 Project Structure
 
 baby-emotion-recognition/
+
 ├── templates/         # HTML templates for the Flask web app
+
 ├── uploads/           # Directory for uploaded images
 ├── .gitattributes     # Git attributes file
 ├── .gitignore         # Ignore unnecessary files in version control
@@ -22,6 +24,7 @@ baby-emotion-recognition/
 ├── requirements.txt   # Dependencies needed to run the project
 ├── setup.bat          # Script for setting up the environment
 ├── training_model.py  # Python script for training the emotion detection model
+
 
 
 🚀 Installation & Setup
