@@ -1,43 +1,30 @@
-Baby Emotion Recognition System
+# Baby Emotion Recognition System
 
-🔍 Overview
-The Baby Emotion Recognition System is a deep learning-powered image classification model designed to detect and classify a baby’s emotional state based on facial expressions. This system leverages Convolutional Neural Networks (CNNs) to analyze grayscale images and predict emotions such as Angry, Disgust, Fear, Happy, Neutral, Sad, and Surprise.
-This project aims to provide a reliable and efficient emotion recognition system applicable to parenting assistance, medical monitoring, and interactive baby care solutions.
+## 🔍 Overview
+The **Baby Emotion Recognition System** is a deep learning-powered image classification model designed to detect and classify a baby’s emotional state based on facial expressions. This system leverages **Convolutional Neural Networks (CNNs)** to analyze grayscale images and predict emotions such as **Angry, Disgust, Fear, Happy, Neutral, Sad, and Surprise**.
 
-📂 Project Structure
+The project aims to provide a **reliable and efficient emotion recognition system**, applicable to parenting assistance, medical monitoring, and interactive baby care solutions.
 
+---
+
+## 📂 Project Structure
+```plaintext
 baby-emotion-recognition/
-
 ├── templates/         # HTML templates for the Flask web app
-
 ├── uploads/           # Directory for uploaded images
-
 ├── .gitattributes     # Git attributes file
-
 ├── .gitignore         # Ignore unnecessary files in version control
-
 ├── app.py             # Main Flask application for emotion detection
-
 ├── BabyEmotion.h5     # Trained model saved in H5 format
-
 ├── BabyEmotion.json   # Model architecture in JSON format
-
 ├── Detection.py       # Python script for emotion detection from images
-
 ├── detection_app.py   # Video-based emotion recognition using webcam
-
 ├── LossGraph.py       # Visualization of training loss over epochs
-
 ├── predict.py         # Python script for emotion prediction on a single image
-
 ├── Readme.md          # Project documentation
-
 ├── requirements.txt   # Dependencies needed to run the project
-
 ├── setup.bat          # Script for setting up the environment
-
 ├── training_model.py  # Python script for training the emotion detection model
-
 
 
 🚀 Installation & Setup
