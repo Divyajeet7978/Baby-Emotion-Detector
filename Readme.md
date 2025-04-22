@@ -11,18 +11,31 @@ baby-emotion-recognition/
 ├── templates/         # HTML templates for the Flask web app
 
 ├── uploads/           # Directory for uploaded images
+
 ├── .gitattributes     # Git attributes file
+
 ├── .gitignore         # Ignore unnecessary files in version control
+
 ├── app.py             # Main Flask application for emotion detection
+
 ├── BabyEmotion.h5     # Trained model saved in H5 format
+
 ├── BabyEmotion.json   # Model architecture in JSON format
+
 ├── Detection.py       # Python script for emotion detection from images
+
 ├── detection_app.py   # Video-based emotion recognition using webcam
+
 ├── LossGraph.py       # Visualization of training loss over epochs
+
 ├── predict.py         # Python script for emotion prediction on a single image
+
 ├── Readme.md          # Project documentation
+
 ├── requirements.txt   # Dependencies needed to run the project
+
 ├── setup.bat          # Script for setting up the environment
+
 ├── training_model.py  # Python script for training the emotion detection model
 
 
