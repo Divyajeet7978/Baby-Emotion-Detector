@@ -1,4 +1,6 @@
 import os
+os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'  # Suppress TensorFlow info messages
 import numpy as np
 import tensorflow as tf
 from flask import Flask, request, jsonify
