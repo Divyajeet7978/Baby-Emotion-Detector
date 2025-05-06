@@ -3,7 +3,7 @@
 # Baby Emotion Recognition System
 
 ## 🔍 Overview
-The **Facial Emotion Recognition System** is an advanced image classification model powered by deep learning techniques. This system is designed to detect and classify a baby’s emotional state based on facial expressions. By utilizing **Convolutional Neural Networks (CNNs)**, the model processes grayscale images to predict emotions, including **Angry, Disgust, Fear, Happy, Neutral, Sad, and Surprise**.
+The **Baby Emotion Recognition System** is an advanced image classification model powered by deep learning techniques. This system is designed to detect and classify a baby’s emotional state based on facial expressions. By utilizing **Convolutional Neural Networks (CNNs)**, the model processes grayscale images to predict emotions, including **Angry, Disgust, Fear, Happy, Neutral, Sad, and Surprise**.
 
 This project serves as a valuable tool for parenting assistance, medical monitoring, and developing interactive baby care solutions.
 
